@@ -21,7 +21,7 @@ myLength = fst . last. zip [1..]
 -- Q5
 myReverse :: [a] -> [a]
 myReverse [] = []
-myReverse (x:xs) = myReverse (xs) ++ [x]
+myReverse (x:xs) = myReverse xs ++ [x]
 
 -- Q6
 isPalindrome :: (Eq a) => [a] -> Bool
