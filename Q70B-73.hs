@@ -17,12 +17,6 @@ stringToTree (x:xs) = Node x (fst(stringToTreeAux xs))
 treeToString :: Tree Char -> String
 treeToString (Node x xs) = x : concatMap treeToString xs ++ ['^']
 
-tree5 = Node 'a' [
-                Node 'f' [Node 'g' []],
-                Node 'c' [],
-                Node 'b' [Node 'd' [], Node 'e' []]
-                ]
-
 -- Q71
 ipl :: Tree a -> Int
 ipl = internalpath 1
