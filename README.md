@@ -24,3 +24,5 @@ To leave the environment, we can run the following command line or press "CTRL+D
 ## Useful Links ##
 
 https://www.tutorialspoint.com/haskell/index.htm
+
+http://learnyouahaskell.com/chapters
